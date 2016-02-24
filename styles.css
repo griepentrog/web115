@@ -1,0 +1,146 @@
+body {
+    background: #4F0045;
+    font-family: ariel;
+}
+
+#container {
+    background: #C888E0;
+    color: black;
+    width: 1000px;
+    min-height: 500px;
+    margin: 5px auto;
+    border-radius: 20px;
+    padding: 10px;
+    border: 10px solid #EDBC00;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    min-height: 400px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+h3 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 200;
+}
+
+strong {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+p {
+    font-size: 20px;
+    padding: 5px 10px 5px 15px;
+}
+
+#picture1 {
+    float: left;
+    padding-right: 20px;
+}
+
+#picture2 {
+    float: right;
+    Padding-left: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.picture2 {
+    float: right;
+}
+
+figure {
+    width: 250px;
+}
+
+figure img {
+    width: 100%;
+}
+
+
+/*Column*/
+
+.column-grid .gallery {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
+
+.column-grid figure {
+    margin: 0 0 10px;
+    width: 95%;
+}
+
+.column-grid figure img {
+    border: 10px solid rgba(255, 255, 25, 0.5);
+}
+
+
+/*float layout*/
+
+.float-grid figure {
+    width 25%;
+    float: left;
+    margin: 0;
+}
+
+.float-grid figure:nth-of-type(4n+1) {
+    clear: left;
+}
+
+
+/*caption*/
+
+.caption-grid .gallery {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+}
+
+.caption-grid figure {
+    margin: 0 0 20px;
+    width: 100%;
+    position: relative;
+    /* We need a relative each time we have an absolute */
+}
+
+.caption-grid figcaption {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 0 5px 5px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.caption-grid figure img {
+    border-width: 5px 5px 0;
+}
+
+.caption-grid figcaption,
+.caption-grid figure img {
+    border-style: solid;
+    border-color: #EDBC00;
+    f;
+    box-sizing: border-box;
+}
